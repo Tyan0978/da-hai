@@ -9,9 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: "PMingLiU,Poppins",
-        sans-serif;
-    color: #e2e2e2;
+  font-family:
+    /* English & numbers */
+    "sans-serif", "Arial",
+    /* Chinese */
+    "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", ;
+  color: #e2e2e2;
 }
 
 a {
@@ -23,15 +26,12 @@ a:hover {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/*
+h1, h2, h3, h4, h5, h6 {
     font-family: "PMingLiU,Poppins",
         sans-serif;
 }
+*/
 
 /*--------------------------------------------------------------
 # Preloader
