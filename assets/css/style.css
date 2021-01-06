@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family:
-    /* English & numbers */
-    "sans-serif", "Arial",
-    /* Chinese */
-    "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", ;
-  color: #e2e2e2;
+    font-family:
+        /* English & numbers */
+        "sans-serif", "Arial",
+        /* Chinese */
+        "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", ;
+    color: #e2e2e2;
 }
 
 a {
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-item::before {
     content: '';
-    background-color: rgba(12, 13, 14, 0.8);
+    background-color: rgba(8, 13, 14, 0.5);
 }
 
 #hero .carousel-container {
@@ -569,7 +569,7 @@ section {
 }
 
 .section-title h2 {
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 1px;
     font-weight: 700;
     padding: 8px 20px;
@@ -854,11 +854,11 @@ section {
     margin-left: 60px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .services .title a {
-    color: #343a40;
+    color: #abbfd2;
     transition: 0.3s;
 }
 
@@ -1042,6 +1042,7 @@ section {
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     position: relative;
     background: #222;
+    opacity: 0.5;
 }
 
 .testimonials .testimonial-item .testimonial-img {
