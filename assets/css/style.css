@@ -1038,17 +1038,18 @@ section {
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
     box-sizing: content-box;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     position: relative;
     background: #222;
-    opacity: 0.5;
+    opacity: 0.8;
+    border-radius: 20px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-    width: 90px;
+    width: 200px;
     border-radius: 10px;
-    border: 6px solid #fff;
+    border: 3px solid #7d7a7a;
     float: left;
     margin: 0 10px 0 0;
 }
@@ -1057,7 +1058,7 @@ section {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #394047;
+    color: #b0b3b6;
 }
 
 .testimonials .testimonial-item h4 {
