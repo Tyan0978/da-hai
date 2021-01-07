@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: #fff;
+    background: #a3a3a3;
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -876,7 +876,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+    background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.8)), url("../img/cta-bg_2.png") fixed center center;
     background-size: cover;
     padding: 120px 0;
 }
